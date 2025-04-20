@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+
 const Navbar = () => {
   const links =<>
         <Link to='/'><li className='m-5'>Home</li></Link>
        <Link to='/about'>  <li className='m-5'>About</li></Link>
+       <Link to='/readList'>  <li className='m-5'>ReadList</li></Link>
   </>
   return (
     <div className="navbar bg-base-100 shadow-sm">
